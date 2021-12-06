@@ -1,0 +1,1725 @@
+[November 28, 2021, 6:00 pm EST -0500] LSA: Received command 'faculty'
+[November 28, 2021, 6:00 pm EST -0500] LSA: Getting all IDs from 'faculty' table
+[November 28, 2021, 6:00 pm EST -0500] LSA: Result: '[{"id":1},{"id":2},{"id":3},{"id":4},{"id":5},{"id":6},{"id":7},{"id":8}]
+[November 28, 2021, 6:01 pm EST -0500] LSA: Received command 'user'
+[November 28, 2021, 6:01 pm EST -0500] LSA: Requesting user info for the user 'ccc
+[November 28, 2021, 6:01 pm EST -0500] LSA: Result: []
+[November 28, 2021, 6:05 pm EST -0500] LSA: Received command 'user'
+[November 28, 2021, 6:05 pm EST -0500] LSA: Requesting user info for the user 'ccc'
+[November 28, 2021, 6:05 pm EST -0500] LSA: Result: []
+[November 28, 2021, 6:05 pm EST -0500] LSA: Received command 'course'
+[November 28, 2021, 6:05 pm EST -0500] LSA: Getting all course numbers for the user 'ccc'
+[November 28, 2021, 6:05 pm EST -0500] LSA: Result: '[]
+[November 28, 2021, 6:05 pm EST -0500] LSA: Received command 'course'
+[November 28, 2021, 6:05 pm EST -0500] LSA: Getting all course numbers
+[November 28, 2021, 6:05 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[November 28, 2021, 6:05 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:05 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:05 pm EST -0500] LSA: Result: '[]
+[November 28, 2021, 6:06 pm EST -0500] LSA: Received command 'course'
+[November 28, 2021, 6:06 pm EST -0500] LSA: Registering new course for the user 'ccc': 'CSE498'
+[November 28, 2021, 6:06 pm EST -0500] LSA: Registering new course for the user 'ccc': 'CSE471'
+[November 28, 2021, 6:06 pm EST -0500] LSA: Registering new course for the user 'ccc': 'CSE411'
+[November 28, 2021, 6:06 pm EST -0500] LSA: Result: '[{"length":1}]
+[November 28, 2021, 6:06 pm EST -0500] LSA: Received command 'user'
+[November 28, 2021, 6:06 pm EST -0500] LSA: Requesting user info for the user 'ccc'
+[November 28, 2021, 6:06 pm EST -0500] LSA: Result: []
+[November 28, 2021, 6:06 pm EST -0500] LSA: Received command 'course'
+[November 28, 2021, 6:06 pm EST -0500] LSA: Getting all course numbers for the user 'ccc'
+[November 28, 2021, 6:06 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"ccc","course_number":"CSE498"},{"id":3,"user_name":"ccc","course_number":"CSE471"},{"id":4,"user_name":"ccc","course_number":"CSE411"}]
+[November 28, 2021, 6:06 pm EST -0500] LSA: Received command 'course'
+[November 28, 2021, 6:06 pm EST -0500] LSA: Getting all course numbers
+[November 28, 2021, 6:06 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[November 28, 2021, 6:06 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:06 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:06 pm EST -0500] LSA: Result: '[]
+[November 28, 2021, 6:06 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:06 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:06 pm EST -0500] LSA: Result: '[]
+[November 28, 2021, 6:07 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:07 pm EST -0500] LSA: Adding a tracker for the user 'ccc' - 'CSE498' - 'CSE498: Assignment1' - '30-11-2021' - '7:07 PM'
+[November 28, 2021, 6:07 pm EST -0500] LSA: Result: '[{"length":1}]
+[November 28, 2021, 6:07 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:07 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:07 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"ccc","course_number":"CSE498","due_date":"30-11-2021","due_time":"7:07 PM","assignment":"CSE498: Assignment1"}]
+[November 28, 2021, 6:08 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:08 pm EST -0500] LSA: Adding a tracker for the user 'ccc' - 'CSE471' - 'CSE471: Final project part1' - '29-11-2021' - '7:08 PM'
+[November 28, 2021, 6:08 pm EST -0500] LSA: Result: '[{"length":1}]
+[November 28, 2021, 6:08 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:08 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:08 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"ccc","course_number":"CSE498","due_date":"30-11-2021","due_time":"7:07 PM","assignment":"CSE498: Assignment1"},{"id":3,"user_name":"ccc","course_number":"CSE471","due_date":"29-11-2021","due_time":"7:08 PM","assignment":"CSE471: Final project part1"}]
+[November 28, 2021, 6:09 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:09 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:09 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"ccc","course_number":"CSE498","due_date":"30-11-2021","due_time":"7:07 PM","assignment":"CSE498: Assignment1"},{"id":3,"user_name":"ccc","course_number":"CSE471","due_date":"29-11-2021","due_time":"7:08 PM","assignment":"CSE471: Final project part1"}]
+[November 28, 2021, 6:09 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:09 pm EST -0500] LSA: Deleting a tracker for the user 'ccc' - 'CSE498' - 'CSE498: Assignment1' - '30-11-2021' - '7:07 PM'
+[November 28, 2021, 6:09 pm EST -0500] LSA: Result: '[{"length":1}]
+[November 28, 2021, 6:09 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:09 pm EST -0500] LSA: Deleting a tracker for the user 'ccc' - 'CSE471' - 'CSE471: Final project part1' - '29-11-2021' - '7:08 PM'
+[November 28, 2021, 6:09 pm EST -0500] LSA: Result: '[{"length":1}]
+[November 28, 2021, 6:09 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:09 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:09 pm EST -0500] LSA: Result: '[]
+[November 28, 2021, 6:11 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:11 pm EST -0500] LSA: Adding a tracker for the user 'ccc' - 'CSE498' - 'CSE498: a' - '28-11-2021' - '6:15 PM'
+[November 28, 2021, 6:11 pm EST -0500] LSA: Result: '[{"length":1}]
+[November 28, 2021, 6:12 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:12 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:12 pm EST -0500] LSA: Result: '[{"id":4,"user_name":"ccc","course_number":"CSE498","due_date":"28-11-2021","due_time":"6:15 PM","assignment":"CSE498: a"}]
+[November 28, 2021, 6:14 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:14 pm EST -0500] LSA: Deleting a tracker for the user 'ccc' - 'CSE498' - 'CSE498: a' - '28-11-2021' - '6:15 PM'
+[November 28, 2021, 6:14 pm EST -0500] LSA: Result: '[{"length":1}]
+[November 28, 2021, 6:14 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:14 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:14 pm EST -0500] LSA: Result: '[]
+[November 28, 2021, 6:14 pm EST -0500] LSA: Received command 'user'
+[November 28, 2021, 6:14 pm EST -0500] LSA: Requesting user info for the user 'ccc'
+[November 28, 2021, 6:14 pm EST -0500] LSA: Result: []
+[November 28, 2021, 6:14 pm EST -0500] LSA: Received command 'course'
+[November 28, 2021, 6:14 pm EST -0500] LSA: Getting all course numbers for the user 'ccc'
+[November 28, 2021, 6:14 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"ccc","course_number":"CSE498"},{"id":3,"user_name":"ccc","course_number":"CSE471"},{"id":4,"user_name":"ccc","course_number":"CSE411"}]
+[November 28, 2021, 6:14 pm EST -0500] LSA: Received command 'course'
+[November 28, 2021, 6:14 pm EST -0500] LSA: Getting all course numbers
+[November 28, 2021, 6:14 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[November 28, 2021, 6:14 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:14 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:14 pm EST -0500] LSA: Result: '[]
+[November 28, 2021, 6:14 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:14 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:14 pm EST -0500] LSA: Result: '[]
+[November 28, 2021, 6:15 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:15 pm EST -0500] LSA: Adding a tracker for the user 'ccc' - 'CSE498' - 'a' - '28-11-2021' - '6:20 PM'
+[November 28, 2021, 6:15 pm EST -0500] LSA: Result: '[{"length":1}]
+[November 28, 2021, 6:15 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:15 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:15 pm EST -0500] LSA: Result: '[{"id":5,"user_name":"ccc","course_number":"CSE498","due_date":"28-11-2021","due_time":"6:20 PM","assignment":"a"}]
+[November 28, 2021, 6:15 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:15 pm EST -0500] LSA: Deleting a tracker for the user 'ccc' - 'CSE498' - 'a' - '28-11-2021' - '6:20 PM'
+[November 28, 2021, 6:15 pm EST -0500] LSA: Result: '[{"length":1}]
+[November 28, 2021, 6:15 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:15 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:15 pm EST -0500] LSA: Result: '[]
+[November 28, 2021, 6:15 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:15 pm EST -0500] LSA: Adding a tracker for the user 'ccc' - 'CSE471' - 'Final project part1' - '30-11-2021' - '6:15 PM'
+[November 28, 2021, 6:15 pm EST -0500] LSA: Result: '[{"length":1}]
+[November 28, 2021, 6:15 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:15 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:15 pm EST -0500] LSA: Result: '[{"id":6,"user_name":"ccc","course_number":"CSE471","due_date":"30-11-2021","due_time":"6:15 PM","assignment":"Final project part1"}]
+[November 28, 2021, 6:15 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:15 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:15 pm EST -0500] LSA: Result: '[{"id":6,"user_name":"ccc","course_number":"CSE471","due_date":"30-11-2021","due_time":"6:15 PM","assignment":"Final project part1"}]
+[November 28, 2021, 6:16 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:16 pm EST -0500] LSA: Adding a tracker for the user 'ccc' - 'CSE498' - 'Assignment3' - '29-11-2021' - '10:00 PM'
+[November 28, 2021, 6:16 pm EST -0500] LSA: Result: '[{"length":1}]
+[November 28, 2021, 6:16 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:16 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:16 pm EST -0500] LSA: Result: '[{"id":6,"user_name":"ccc","course_number":"CSE471","due_date":"30-11-2021","due_time":"6:15 PM","assignment":"Final project part1"},{"id":7,"user_name":"ccc","course_number":"CSE498","due_date":"29-11-2021","due_time":"10:00 PM","assignment":"Assignment3"}]
+[November 28, 2021, 6:18 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:18 pm EST -0500] LSA: Adding a tracker for the user 'ccc' - 'CSE411' - 'Presentation preparation:Refer class notes' - '30-11-2021' - '8:20 PM'
+[November 28, 2021, 6:18 pm EST -0500] LSA: Result: '[{"length":1}]
+[November 28, 2021, 6:18 pm EST -0500] LSA: Received command 'tracker'
+[November 28, 2021, 6:18 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[November 28, 2021, 6:18 pm EST -0500] LSA: Result: '[{"id":6,"user_name":"ccc","course_number":"CSE471","due_date":"30-11-2021","due_time":"6:15 PM","assignment":"Final project part1"},{"id":7,"user_name":"ccc","course_number":"CSE498","due_date":"29-11-2021","due_time":"10:00 PM","assignment":"Assignment3"},{"id":8,"user_name":"ccc","course_number":"CSE411","due_date":"30-11-2021","due_time":"8:20 PM","assignment":"Presentation preparation:Refer class notes"}]
+[December 1, 2021, 4:51 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 4:51 pm EST -0500] LSA: Requesting user info for the user 'ccc'
+[December 1, 2021, 4:51 pm EST -0500] LSA: Result: []
+[December 1, 2021, 4:51 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 4:51 pm EST -0500] LSA: Getting all course numbers for the user 'ccc'
+[December 1, 2021, 4:51 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"ccc","course_number":"CSE498"},{"id":3,"user_name":"ccc","course_number":"CSE471"},{"id":4,"user_name":"ccc","course_number":"CSE411"}]
+[December 1, 2021, 4:51 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 4:51 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 4:51 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 4:51 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 4:51 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[December 1, 2021, 4:51 pm EST -0500] LSA: Result: '[{"id":6,"user_name":"ccc","course_number":"CSE471","due_date":"30-11-2021","due_time":"6:15 PM","assignment":"Final project part1"},{"id":7,"user_name":"ccc","course_number":"CSE498","due_date":"29-11-2021","due_time":"10:00 PM","assignment":"Assignment3"},{"id":8,"user_name":"ccc","course_number":"CSE411","due_date":"30-11-2021","due_time":"8:20 PM","assignment":"Presentation preparation:Refer class notes"}]
+[December 1, 2021, 4:55 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 4:55 pm EST -0500] LSA: Requesting user info for the user 'ccc'
+[December 1, 2021, 4:55 pm EST -0500] LSA: Result: []
+[December 1, 2021, 4:55 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 4:55 pm EST -0500] LSA: Getting all course numbers for the user 'ccc'
+[December 1, 2021, 4:55 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"ccc","course_number":"CSE498"},{"id":3,"user_name":"ccc","course_number":"CSE471"},{"id":4,"user_name":"ccc","course_number":"CSE411"}]
+[December 1, 2021, 4:55 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 4:55 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 4:55 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 4:55 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 4:55 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[December 1, 2021, 4:55 pm EST -0500] LSA: Result: '[{"id":6,"user_name":"ccc","course_number":"CSE471","due_date":"30-11-2021","due_time":"6:15 PM","assignment":"Final project part1"},{"id":7,"user_name":"ccc","course_number":"CSE498","due_date":"29-11-2021","due_time":"10:00 PM","assignment":"Assignment3"},{"id":8,"user_name":"ccc","course_number":"CSE411","due_date":"30-11-2021","due_time":"8:20 PM","assignment":"Presentation preparation:Refer class notes"}]
+[December 1, 2021, 4:56 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 4:56 pm EST -0500] LSA: Requesting user info for the user 'ccc'
+[December 1, 2021, 4:56 pm EST -0500] LSA: Result: []
+[December 1, 2021, 4:56 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 4:56 pm EST -0500] LSA: Getting all course numbers for the user 'ccc'
+[December 1, 2021, 4:56 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"ccc","course_number":"CSE498"},{"id":3,"user_name":"ccc","course_number":"CSE471"},{"id":4,"user_name":"ccc","course_number":"CSE411"}]
+[December 1, 2021, 4:56 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 4:56 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 4:56 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 4:56 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 4:56 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[December 1, 2021, 4:56 pm EST -0500] LSA: Result: '[{"id":6,"user_name":"ccc","course_number":"CSE471","due_date":"30-11-2021","due_time":"6:15 PM","assignment":"Final project part1"},{"id":7,"user_name":"ccc","course_number":"CSE498","due_date":"29-11-2021","due_time":"10:00 PM","assignment":"Assignment3"},{"id":8,"user_name":"ccc","course_number":"CSE411","due_date":"30-11-2021","due_time":"8:20 PM","assignment":"Presentation preparation:Refer class notes"}]
+[December 1, 2021, 6:05 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 6:05 pm EST -0500] LSA: Requesting user info for the user 'ccc'
+[December 1, 2021, 6:05 pm EST -0500] LSA: Result: []
+[December 1, 2021, 6:05 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 6:05 pm EST -0500] LSA: Getting all course numbers for the user 'ccc'
+[December 1, 2021, 6:05 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"ccc","course_number":"CSE498"},{"id":3,"user_name":"ccc","course_number":"CSE471"},{"id":4,"user_name":"ccc","course_number":"CSE411"}]
+[December 1, 2021, 6:05 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 6:05 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 6:05 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 6:05 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 6:05 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[December 1, 2021, 6:05 pm EST -0500] LSA: Result: '[{"id":6,"user_name":"ccc","course_number":"CSE471","due_date":"30-11-2021","due_time":"6:15 PM","assignment":"Final project part1"},{"id":7,"user_name":"ccc","course_number":"CSE498","due_date":"29-11-2021","due_time":"10:00 PM","assignment":"Assignment3"},{"id":8,"user_name":"ccc","course_number":"CSE411","due_date":"30-11-2021","due_time":"8:20 PM","assignment":"Presentation preparation:Refer class notes"}]
+[December 1, 2021, 6:05 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 6:05 pm EST -0500] LSA: Requesting user info for the user 'ccc'
+[December 1, 2021, 6:05 pm EST -0500] LSA: Result: []
+[December 1, 2021, 6:05 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 6:05 pm EST -0500] LSA: Getting all course numbers for the user 'ccc'
+[December 1, 2021, 6:05 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"ccc","course_number":"CSE498"},{"id":3,"user_name":"ccc","course_number":"CSE471"},{"id":4,"user_name":"ccc","course_number":"CSE411"}]
+[December 1, 2021, 6:05 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 6:05 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 6:05 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 6:05 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 6:05 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[December 1, 2021, 6:05 pm EST -0500] LSA: Result: '[{"id":6,"user_name":"ccc","course_number":"CSE471","due_date":"30-11-2021","due_time":"6:15 PM","assignment":"Final project part1"},{"id":7,"user_name":"ccc","course_number":"CSE498","due_date":"29-11-2021","due_time":"10:00 PM","assignment":"Assignment3"},{"id":8,"user_name":"ccc","course_number":"CSE411","due_date":"30-11-2021","due_time":"8:20 PM","assignment":"Presentation preparation:Refer class notes"}]
+[December 1, 2021, 6:14 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 6:14 pm EST -0500] LSA: Requesting user info for the user 'ccc'
+[December 1, 2021, 6:14 pm EST -0500] LSA: Result: []
+[December 1, 2021, 6:14 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 6:14 pm EST -0500] LSA: Getting all course numbers for the user 'ccc'
+[December 1, 2021, 6:14 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"ccc","course_number":"CSE498"},{"id":3,"user_name":"ccc","course_number":"CSE471"},{"id":4,"user_name":"ccc","course_number":"CSE411"}]
+[December 1, 2021, 6:14 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 6:14 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 6:14 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 6:14 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 6:14 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[December 1, 2021, 6:14 pm EST -0500] LSA: Result: '[{"id":6,"user_name":"ccc","course_number":"CSE471","due_date":"30-11-2021","due_time":"6:15 PM","assignment":"Final project part1"},{"id":7,"user_name":"ccc","course_number":"CSE498","due_date":"29-11-2021","due_time":"10:00 PM","assignment":"Assignment3"},{"id":8,"user_name":"ccc","course_number":"CSE411","due_date":"30-11-2021","due_time":"8:20 PM","assignment":"Presentation preparation:Refer class notes"}]
+[December 1, 2021, 6:14 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 6:14 pm EST -0500] LSA: Requesting user info for the user 'ccc'
+[December 1, 2021, 6:14 pm EST -0500] LSA: Result: []
+[December 1, 2021, 6:14 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 6:14 pm EST -0500] LSA: Getting all course numbers for the user 'ccc'
+[December 1, 2021, 6:14 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"ccc","course_number":"CSE498"},{"id":3,"user_name":"ccc","course_number":"CSE471"},{"id":4,"user_name":"ccc","course_number":"CSE411"}]
+[December 1, 2021, 6:14 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 6:14 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 6:14 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 6:14 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 6:14 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[December 1, 2021, 6:14 pm EST -0500] LSA: Result: '[{"id":6,"user_name":"ccc","course_number":"CSE471","due_date":"30-11-2021","due_time":"6:15 PM","assignment":"Final project part1"},{"id":7,"user_name":"ccc","course_number":"CSE498","due_date":"29-11-2021","due_time":"10:00 PM","assignment":"Assignment3"},{"id":8,"user_name":"ccc","course_number":"CSE411","due_date":"30-11-2021","due_time":"8:20 PM","assignment":"Presentation preparation:Refer class notes"}]
+[December 1, 2021, 7:51 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 7:51 pm EST -0500] LSA: Requesting user info for the user 'ccc'
+[December 1, 2021, 7:51 pm EST -0500] LSA: Result: []
+[December 1, 2021, 7:51 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 7:51 pm EST -0500] LSA: Getting all course numbers for the user 'ccc'
+[December 1, 2021, 7:51 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"ccc","course_number":"CSE498"},{"id":3,"user_name":"ccc","course_number":"CSE471"},{"id":4,"user_name":"ccc","course_number":"CSE411"}]
+[December 1, 2021, 7:51 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 7:51 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 7:51 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 7:51 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 7:51 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[December 1, 2021, 7:51 pm EST -0500] LSA: Result: '[{"id":6,"user_name":"ccc","course_number":"CSE471","due_date":"30-11-2021","due_time":"6:15 PM","assignment":"Final project part1"},{"id":7,"user_name":"ccc","course_number":"CSE498","due_date":"29-11-2021","due_time":"10:00 PM","assignment":"Assignment3"},{"id":8,"user_name":"ccc","course_number":"CSE411","due_date":"30-11-2021","due_time":"8:20 PM","assignment":"Presentation preparation:Refer class notes"}]
+[December 1, 2021, 7:51 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 7:51 pm EST -0500] LSA: Requesting user info for the user 'ccc'
+[December 1, 2021, 7:51 pm EST -0500] LSA: Result: []
+[December 1, 2021, 7:51 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 7:51 pm EST -0500] LSA: Getting all course numbers for the user 'ccc'
+[December 1, 2021, 7:51 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"ccc","course_number":"CSE498"},{"id":3,"user_name":"ccc","course_number":"CSE471"},{"id":4,"user_name":"ccc","course_number":"CSE411"}]
+[December 1, 2021, 7:51 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 7:51 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 7:51 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 7:51 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 7:51 pm EST -0500] LSA: Getting all tracker details for the user 'ccc'
+[December 1, 2021, 7:51 pm EST -0500] LSA: Result: '[{"id":6,"user_name":"ccc","course_number":"CSE471","due_date":"30-11-2021","due_time":"6:15 PM","assignment":"Final project part1"},{"id":7,"user_name":"ccc","course_number":"CSE498","due_date":"29-11-2021","due_time":"10:00 PM","assignment":"Assignment3"},{"id":8,"user_name":"ccc","course_number":"CSE411","due_date":"30-11-2021","due_time":"8:20 PM","assignment":"Presentation preparation:Refer class notes"}]
+[December 1, 2021, 8:18 pm EST -0500] LSA: Received command 'authorization'
+[December 1, 2021, 8:18 pm EST -0500] LSA: The user 'user1' trying to login...
+[December 1, 2021, 8:18 pm EST -0500] LSA: Result: '[{"id":1,"first_name":"Sam","last_name":"Red","user_name":"user1","password":"pass"}]
+[December 1, 2021, 8:18 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 8:18 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 8:18 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 8:18 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 8:18 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 8:18 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 8:18 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 8:18 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 8:18 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 8:18 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 8:18 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 8:18 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 8:20 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 8:20 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 8:20 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 8:20 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 8:20 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 8:20 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 8:20 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 8:20 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 8:20 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 8:20 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 8:20 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 8:20 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 8:21 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 8:21 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 8:21 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 8:21 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 8:21 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 8:21 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 8:21 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 8:21 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 8:21 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 8:21 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 8:21 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 8:21 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 8:59 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 8:59 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 8:59 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 8:59 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 8:59 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 8:59 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 8:59 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 8:59 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 8:59 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 8:59 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 8:59 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 8:59 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 9:02 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 9:02 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 9:02 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 9:02 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 9:02 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 9:02 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 9:02 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 9:02 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 9:02 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 9:02 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 9:02 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 9:02 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 9:09 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 9:09 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 9:09 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 9:09 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 9:09 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 9:09 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 9:09 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 9:09 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 9:09 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 9:09 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 9:09 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 9:09 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 9:35 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 9:35 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 9:35 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 9:35 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 9:35 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 9:35 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 9:35 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 9:35 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 9:35 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 9:35 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 9:35 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 9:35 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 10:47 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 10:47 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 10:47 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 10:47 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 10:47 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 10:47 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 10:47 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 10:47 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 10:47 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 10:47 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 10:47 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 10:47 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 10:55 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 10:55 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 10:55 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 10:55 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 10:55 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 10:55 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 10:55 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 10:55 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 10:55 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 10:55 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 10:55 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 10:55 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 10:57 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 10:57 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 10:57 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 10:57 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 10:57 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 10:57 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 10:57 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 10:57 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 10:57 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 10:57 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 10:57 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 10:57 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 11:14 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 11:14 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 11:14 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 11:14 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:14 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 11:14 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 11:14 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:14 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 11:14 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 11:14 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 11:14 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 11:14 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 11:18 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 11:18 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 11:18 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 11:18 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:18 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 11:18 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 11:18 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:18 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 11:18 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 11:18 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 11:18 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 11:18 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 11:24 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 11:24 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 11:24 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 11:24 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:24 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 11:24 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 11:24 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:24 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 11:24 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 11:24 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 11:24 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 11:24 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 11:25 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 11:25 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 11:25 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 11:25 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:25 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 11:25 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 11:25 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:25 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 11:25 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 11:25 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 11:25 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 11:25 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 11:27 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 11:27 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 11:27 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 11:27 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:27 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 11:27 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 11:27 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:27 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 11:27 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 11:27 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 11:27 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 11:27 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 11:41 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 11:41 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 11:41 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 11:41 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:41 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 11:41 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 11:41 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:41 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 11:41 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 11:41 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 11:41 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 11:41 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 11:44 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 11:44 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 11:44 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 11:44 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:44 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 11:44 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 11:44 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:44 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 11:44 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 11:44 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 11:44 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 11:44 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 11:47 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 11:47 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 11:47 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 11:47 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:47 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 11:47 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 11:47 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:47 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 11:47 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 11:47 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 11:47 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 11:47 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 11:47 pm EST -0500] LSA: Received command 'chatbot'
+[December 1, 2021, 11:47 pm EST -0500] LSA: WitAI Response, input ''
+[December 1, 2021, 11:49 pm EST -0500] LSA: Received command 'user'
+[December 1, 2021, 11:49 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 1, 2021, 11:49 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 1, 2021, 11:49 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:49 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 1, 2021, 11:49 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 1, 2021, 11:49 pm EST -0500] LSA: Received command 'course'
+[December 1, 2021, 11:49 pm EST -0500] LSA: Getting all course numbers
+[December 1, 2021, 11:49 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 1, 2021, 11:49 pm EST -0500] LSA: Received command 'tracker'
+[December 1, 2021, 11:49 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 1, 2021, 11:49 pm EST -0500] LSA: Result: '[]
+[December 1, 2021, 11:50 pm EST -0500] LSA: Received command 'chatbot'
+[December 1, 2021, 11:50 pm EST -0500] LSA: WitAI Response, input ''
+[December 1, 2021, 11:53 pm EST -0500] LSA: Received command 'chatbot'
+[December 1, 2021, 11:53 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 1, 2021, 11:53 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 12:02 am EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 12:02 am EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 12:02 am EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 12:03 am EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 12:03 am EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 12:03 am EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 12:04 am EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 12:04 am EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 12:04 am EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 12:05 am EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 12:05 am EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 12:05 am EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 12:05 am EST -0500] LSA: {"response":["\"You may want to talk with your counselor about your feelings.\""]}
+[December 2, 2021, 12:06 am EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 12:06 am EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 12:06 am EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 12:06 am EST -0500] LSA: {"response":["\"You may want to talk with your counselor about your feelings.\""]}
+[December 2, 2021, 12:20 am EST -0500] LSA: Received command 'user'
+[December 2, 2021, 12:20 am EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 12:20 am EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 12:20 am EST -0500] LSA: Received command 'course'
+[December 2, 2021, 12:20 am EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 12:20 am EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 12:20 am EST -0500] LSA: Received command 'course'
+[December 2, 2021, 12:20 am EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 12:20 am EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 12:20 am EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 12:20 am EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 12:20 am EST -0500] LSA: Result: '[]
+[December 2, 2021, 12:21 am EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 12:21 am EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 12:21 am EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 12:21 am EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 12:24 am EST -0500] LSA: Received command 'user'
+[December 2, 2021, 12:24 am EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 12:24 am EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 12:24 am EST -0500] LSA: Received command 'course'
+[December 2, 2021, 12:24 am EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 12:24 am EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 12:24 am EST -0500] LSA: Received command 'course'
+[December 2, 2021, 12:24 am EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 12:24 am EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 12:24 am EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 12:24 am EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 12:24 am EST -0500] LSA: Result: '[]
+[December 2, 2021, 12:24 am EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 12:24 am EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 12:24 am EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 12:24 am EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 12:25 am EST -0500] LSA: Received command 'user'
+[December 2, 2021, 12:25 am EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 12:25 am EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 12:25 am EST -0500] LSA: Received command 'course'
+[December 2, 2021, 12:25 am EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 12:25 am EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 12:25 am EST -0500] LSA: Received command 'course'
+[December 2, 2021, 12:25 am EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 12:25 am EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 12:25 am EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 12:25 am EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 12:25 am EST -0500] LSA: Result: '[]
+[December 2, 2021, 12:26 am EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 12:26 am EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 12:26 am EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 12:26 am EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 12:30 am EST -0500] LSA: Received command 'user'
+[December 2, 2021, 12:30 am EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 12:30 am EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 12:30 am EST -0500] LSA: Received command 'course'
+[December 2, 2021, 12:30 am EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 12:30 am EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 12:30 am EST -0500] LSA: Received command 'course'
+[December 2, 2021, 12:30 am EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 12:30 am EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 12:30 am EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 12:30 am EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 12:30 am EST -0500] LSA: Result: '[]
+[December 2, 2021, 12:31 am EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 12:31 am EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 12:31 am EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 12:31 am EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 12:31 am EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 12:31 am EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 12:31 am EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 12:31 am EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 12:36 am EST -0500] LSA: Received command 'user'
+[December 2, 2021, 12:36 am EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 12:36 am EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 12:36 am EST -0500] LSA: Received command 'course'
+[December 2, 2021, 12:36 am EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 12:36 am EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 12:36 am EST -0500] LSA: Received command 'course'
+[December 2, 2021, 12:36 am EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 12:36 am EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 12:36 am EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 12:36 am EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 12:36 am EST -0500] LSA: Result: '[]
+[December 2, 2021, 12:36 am EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 12:36 am EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 12:36 am EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 12:36 am EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 12:37 am EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 12:37 am EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 12:37 am EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 12:37 am EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 12:37 am EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 12:37 am EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 12:37 am EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 12:37 am EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 5:14 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 5:14 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 5:14 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 5:14 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 5:14 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 5:14 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 5:14 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 5:14 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 5:14 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 5:14 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 5:14 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 5:14 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 5:19 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 5:19 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 5:19 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 5:20 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 5:20 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 5:20 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 5:20 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 5:20 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 5:20 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 5:20 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 5:20 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 5:20 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 5:20 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 5:20 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 5:20 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 5:20 pm EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 5:21 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 5:21 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 5:21 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 5:21 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 5:21 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 5:21 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 5:21 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 5:21 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 5:21 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 5:21 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 5:21 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 5:21 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 5:21 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 5:21 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 5:21 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 5:21 pm EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 5:23 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 5:23 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 5:23 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 5:23 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 5:23 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 5:23 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 5:23 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 5:23 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 5:23 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 5:23 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 5:23 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 5:23 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 5:24 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 5:24 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 5:24 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 5:24 pm EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 5:24 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 5:24 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 5:24 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 5:24 pm EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 5:24 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 5:24 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 5:24 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 5:24 pm EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 5:24 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 5:24 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 5:24 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 5:24 pm EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 5:33 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 5:33 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 5:33 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 5:33 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 5:33 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 5:33 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 5:33 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 5:33 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 5:33 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 5:33 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 5:33 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 5:33 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 5:33 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 5:33 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"relationship","type":"value"}]'
+[December 2, 2021, 5:33 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 5:33 pm EST -0500] LSA: [{"response":["\"You may want to talk with your counselor about your feelings.\""]}]
+[December 2, 2021, 5:34 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 5:34 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"distraction","type":"value"}]'
+[December 2, 2021, 5:34 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 5:34 pm EST -0500] LSA: [{"response":["\"It is natural to get distracted. But it is important to stay focused at times. Try some meditation to improve your concentration. But if you feel like you need medical assistance, contact the health and wellness center.\""]}]
+[December 2, 2021, 5:44 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 5:44 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 5:44 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 5:44 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 5:44 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 5:44 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 5:44 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 5:44 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 5:44 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 5:44 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 5:44 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 5:44 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 5:58 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 5:58 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 5:58 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 5:59 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 5:59 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 5:59 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 5:59 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 5:59 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 5:59 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 5:59 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 5:59 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 5:59 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 5:59 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 5:59 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 5:59 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 5:59 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in <a href='https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html'> or \\n<a href='http:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/'>\""]}]
+[December 2, 2021, 6:05 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 6:05 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 6:05 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 6:05 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:05 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 6:05 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 6:05 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:05 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 6:05 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 6:05 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 6:05 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 6:05 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 6:06 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:06 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 6:06 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:06 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in <a href='https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html'> or \\n<a href='http:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/'>\""]}]
+[December 2, 2021, 6:06 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:06 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 6:06 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:06 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in <a href='https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html'> or \\n<a href='http:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/'>\""]}]
+[December 2, 2021, 6:07 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 6:07 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 6:07 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 6:07 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:07 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 6:07 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 6:07 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:07 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 6:07 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 6:07 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 6:07 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 6:07 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 6:07 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:07 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 6:07 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:07 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in <a href='https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html'> or \\n<a href='http:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/'>\""]}]
+[December 2, 2021, 6:14 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 6:14 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 6:14 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 6:14 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:14 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 6:14 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 6:14 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:14 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 6:14 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 6:14 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 6:14 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 6:14 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 6:15 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:15 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 6:15 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:15 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in <a href='https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html'> or \\n<a href='http:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/'>\""]}]
+[December 2, 2021, 6:19 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 6:19 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 6:19 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 6:19 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:19 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 6:19 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 6:19 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:19 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 6:19 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 6:19 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 6:19 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 6:19 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 6:20 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:20 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 6:20 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:20 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in <a href='https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html'> or \\n<a href='http:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/'>\""]}]
+[December 2, 2021, 6:26 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:26 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 6:26 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:26 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in 'https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html' or \\n'http:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/'\""]}]
+[December 2, 2021, 6:38 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 6:38 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 6:38 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 6:38 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:38 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 6:38 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 6:38 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:38 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 6:38 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 6:38 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 6:38 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 6:38 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 6:38 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:38 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 6:38 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:38 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in <a href='https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html'> or \\n<a href='http:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/'>sunlab<\\\/a>\""]}]
+[December 2, 2021, 6:39 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:39 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 6:39 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:39 pm EST -0500] LSA: [{"response":["\"Click on the following link \\n <a href='https:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn'>vpn<\\\/a>\""]}]
+[December 2, 2021, 6:40 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 6:40 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 6:40 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 6:40 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:40 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 6:40 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 6:40 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:40 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 6:40 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 6:40 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 6:40 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 6:40 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 6:40 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:40 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 6:40 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:40 pm EST -0500] LSA: [{"response":["\"Click on the following link \\n <a href='https:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn'>vpn<\\\/a>\""]}]
+[December 2, 2021, 6:41 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 6:41 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 6:41 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 6:41 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:41 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 6:41 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 6:41 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:41 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 6:41 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 6:41 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 6:41 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 6:41 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 6:41 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:41 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 6:41 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:41 pm EST -0500] LSA: [{"response":["\"Click on the following link \\n <a href='https:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn'>vpn<\\\/a>\""]}]
+[December 2, 2021, 6:45 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 6:45 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 6:45 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 6:45 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:45 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 6:45 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 6:45 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:45 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 6:45 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 6:45 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 6:45 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 6:45 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 6:45 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:45 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 6:45 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:45 pm EST -0500] LSA: [{"response":["\"Click on the following link \\n <a href='https:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn'>vpn<\\\/a>\""]}]
+[December 2, 2021, 6:46 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 6:46 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 6:46 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 6:46 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:46 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 6:46 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 6:46 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:46 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 6:46 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 6:46 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 6:46 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 6:46 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 6:46 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:46 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 6:46 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:46 pm EST -0500] LSA: [{"response":["\"Click on the following link \\n <a href='https:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn'>vpn<\\\/a>\""]}]
+[December 2, 2021, 6:46 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 6:46 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 6:46 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 6:46 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:46 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 6:46 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 6:46 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:46 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 6:46 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 6:46 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 6:46 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 6:46 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 6:47 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:47 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 6:47 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:47 pm EST -0500] LSA: [{"response":["\"Click on the following link \\n <a href='https:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn'>vpn<\\\/a>\""]}]
+[December 2, 2021, 6:47 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 6:47 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 6:47 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 6:47 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:47 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 6:47 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 6:47 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:47 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 6:47 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 6:47 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 6:47 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 6:47 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 6:49 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 6:49 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 6:49 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 6:49 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:49 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 6:49 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 6:49 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:49 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 6:49 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 6:49 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 6:49 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 6:49 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 6:49 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:49 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 6:49 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:49 pm EST -0500] LSA: [{"response":["\"Click on the following link \\n <a href='https:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn'>vpn<\\\/a>\""]}]
+[December 2, 2021, 6:49 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 6:49 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 6:49 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 6:49 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:49 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 6:49 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 6:49 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:49 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 6:49 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 6:49 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 6:49 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 6:49 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 6:59 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 6:59 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 6:59 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 6:59 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:59 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 6:59 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 6:59 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 6:59 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 6:59 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 6:59 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 6:59 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 6:59 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 6:59 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 6:59 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 6:59 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 6:59 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in <a href='https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html'> or \\n<a href='http:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/'>sunlab<\\\/a>\""]}]
+[December 2, 2021, 7:00 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 7:00 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 7:00 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 7:00 pm EST -0500] LSA: [{"response":["\"Click on the following link \\n 'https:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn'\""]}]
+[December 2, 2021, 7:01 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 7:01 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 7:01 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 7:01 pm EST -0500] LSA: [{"response":["\"Click on the following link \\n 'https:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn'\""]}]
+[December 2, 2021, 7:02 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 7:02 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 7:02 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 7:02 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:02 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 7:02 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 7:02 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:02 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 7:02 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 7:02 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 7:02 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 7:02 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 7:02 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 7:02 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 7:02 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 7:02 pm EST -0500] LSA: [{"response":["\"Click on the following link \\n 'https:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn'\""]}]
+[December 2, 2021, 7:08 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 7:08 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 7:08 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 7:08 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html' or \\nhttp:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/\""]}]
+[December 2, 2021, 7:15 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 7:15 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 7:15 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 7:15 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:15 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 7:15 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 7:15 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:15 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 7:15 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 7:15 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 7:15 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 7:15 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 7:15 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 7:15 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 7:15 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 7:15 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html' or \\nhttp:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/\""]}]
+[December 2, 2021, 7:18 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 7:18 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 7:18 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 7:18 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:18 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 7:18 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 7:18 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:18 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 7:18 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 7:18 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 7:18 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 7:18 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 7:18 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 7:18 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 7:18 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 7:18 pm EST -0500] LSA: [{"response":["\"Click on the following link \\nhttps:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn\""]}]
+[December 2, 2021, 7:18 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 7:18 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 7:18 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 7:18 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html' or \\nhttp:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/\""]}]
+[December 2, 2021, 7:21 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 7:21 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 7:21 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 7:21 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:21 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 7:21 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 7:21 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:21 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 7:21 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 7:21 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 7:21 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 7:21 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 7:21 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 7:21 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 7:21 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 7:21 pm EST -0500] LSA: [{"response":["\"Click on the following link \\nhttps:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn\""]}]
+[December 2, 2021, 7:25 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 7:25 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 7:25 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 7:25 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:25 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 7:25 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 7:25 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:25 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 7:25 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 7:25 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 7:25 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 7:25 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 7:26 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 7:26 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 7:26 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 7:26 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:26 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 7:26 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 7:26 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:26 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 7:26 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 7:26 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 7:26 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 7:26 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 7:27 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 7:27 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 7:27 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 7:27 pm EST -0500] LSA: [{"response":["\"Click on the following link \\nhttps:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn\""]}]
+[December 2, 2021, 7:27 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 7:27 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 7:27 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 7:27 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html' or \\nhttp:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/\""]}]
+[December 2, 2021, 7:29 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 7:29 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 7:29 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 7:29 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:29 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 7:29 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 7:29 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:29 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 7:29 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 7:29 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 7:29 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 7:29 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 7:50 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 7:50 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 7:50 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 7:50 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:50 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 7:50 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 7:50 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:50 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 7:50 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 7:50 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 7:50 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 7:50 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 7:52 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 7:52 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 7:52 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 7:52 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:52 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 7:52 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 7:52 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:52 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 7:52 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 7:52 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 7:52 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 7:52 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 7:54 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 7:54 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 7:54 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 7:54 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:54 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 7:54 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 7:54 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:54 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 7:54 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 7:54 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 7:54 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 7:54 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 7:57 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 7:57 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 7:57 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 7:57 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:57 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 7:57 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 7:57 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:57 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 7:57 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 7:57 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 7:57 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 7:57 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 7:59 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 7:59 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 7:59 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 7:59 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:59 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 7:59 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 7:59 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 7:59 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 7:59 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 7:59 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 7:59 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 7:59 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 8:02 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:02 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 8:02 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 8:02 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:02 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 8:02 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 8:02 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:02 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:02 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:02 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:02 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 8:02 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 8:04 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:04 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 8:04 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 8:04 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:04 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 8:04 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 8:04 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:04 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:04 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:04 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:04 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 8:04 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 8:07 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:07 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 8:07 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 8:07 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:07 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 8:07 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 8:07 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:07 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:07 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:07 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:07 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 8:07 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 8:13 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:13 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 8:13 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 8:13 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:13 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 8:13 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 8:13 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:13 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:13 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:13 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:13 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 8:13 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 8:13 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 8:13 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 8:13 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 8:13 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html' or \\nhttp:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/\""]}]
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:14 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Getting all Faculty names from 'faculty' table
+[December 2, 2021, 8:14 pm EST -0500] LSA: Result: '[{"fac_name":"Ahmed Hassan"},{"fac_name":"Aparna Bharati"},{"fac_name":"Ariel Carr"},{"fac_name":"Daniel Lopresti"},{"fac_name":"Michael Spear"},{"fac_name":"Mooi Chuah"},{"fac_name":"Roberto Palmieri"},{"fac_name":"Yu Yang"}]
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Getting the faculty record for the faculty name=Ahmed Hassan
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Getting all Faculty names from 'faculty' table
+[December 2, 2021, 8:14 pm EST -0500] LSA: Result: '[{"fac_name":"Ahmed Hassan"},{"fac_name":"Aparna Bharati"},{"fac_name":"Ariel Carr"},{"fac_name":"Daniel Lopresti"},{"fac_name":"Michael Spear"},{"fac_name":"Mooi Chuah"},{"fac_name":"Roberto Palmieri"},{"fac_name":"Yu Yang"}]
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Getting the faculty record for the faculty name=Ahmed Hassan
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Getting the faculty record for the faculty name=Aparna Bharati
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Getting the faculty record for the faculty name=Ariel Carr
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Getting the faculty record for the faculty name=Daniel Lopresti
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Getting the faculty record for the faculty name=Michael Spear
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Getting the faculty record for the faculty name=Mooi Chuah
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Getting the faculty record for the faculty name=Roberto Palmieri
+[December 2, 2021, 8:14 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:14 pm EST -0500] LSA: Getting the faculty record for the faculty name=Yu Yang
+[December 2, 2021, 8:25 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:25 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 8:25 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 8:25 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:25 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 8:25 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 8:25 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:25 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:25 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:25 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:25 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 8:25 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 8:25 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:25 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 8:25 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 8:25 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:25 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 8:25 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 8:25 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:25 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:25 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:25 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:25 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 8:25 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 8:26 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 8:26 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 8:26 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 8:26 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html' or \\nhttp:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/\""]}]
+[December 2, 2021, 8:26 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 8:26 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 8:26 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 8:26 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html' or \\nhttp:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/\""]}]
+[December 2, 2021, 8:32 pm EST -0500] LSA: Received command 'authorization'
+[December 2, 2021, 8:32 pm EST -0500] LSA: The user 'user1' trying to login...
+[December 2, 2021, 8:32 pm EST -0500] LSA: Result: '[{"id":1,"first_name":"Sam","last_name":"Red","user_name":"user1","password":"pass"}]
+[December 2, 2021, 8:32 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:32 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 8:32 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 8:32 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:32 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 8:32 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 8:32 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:32 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:32 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:32 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:32 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 8:32 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 8:32 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 8:32 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 8:32 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 8:32 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html' or \\nhttp:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/\""]}]
+[December 2, 2021, 8:32 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 8:32 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 8:32 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 8:32 pm EST -0500] LSA: [{"response":["\"Click on the following link \\nhttps:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn\""]}]
+[December 2, 2021, 8:32 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:32 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 8:32 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 8:32 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:32 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 8:32 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 8:32 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:32 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:32 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:32 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:32 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 8:32 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 8:33 pm EST -0500] LSA: Received command 'authorization'
+[December 2, 2021, 8:33 pm EST -0500] LSA: Registering 'Abc', 'Def'
+[December 2, 2021, 8:33 pm EST -0500] LSA: Result: '[{"length":1}]
+[December 2, 2021, 8:33 pm EST -0500] LSA: Received command 'authorization'
+[December 2, 2021, 8:33 pm EST -0500] LSA: The user 'abc' trying to login...
+[December 2, 2021, 8:33 pm EST -0500] LSA: Result: '[{"id":8,"first_name":"Abc","last_name":"Def","user_name":"abc","password":"def"}]
+[December 2, 2021, 8:33 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:33 pm EST -0500] LSA: Requesting user info for the user 'abc'
+[December 2, 2021, 8:33 pm EST -0500] LSA: Result: [{"first_name":"Abc","last_name":"Def"}]
+[December 2, 2021, 8:33 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:33 pm EST -0500] LSA: Getting all course numbers for the user 'abc'
+[December 2, 2021, 8:33 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 8:33 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:33 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:33 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:33 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:33 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:33 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Registering new course for the user 'abc': 'CSE498'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Registering new course for the user 'abc': 'CSE471'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Result: '[{"length":1}]
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Requesting user info for the user 'abc'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Result: [{"first_name":"Abc","last_name":"Def"}]
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting all course numbers for the user 'abc'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE498"},{"id":3,"user_name":"abc","course_number":"CSE471"}]
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:34 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting all Faculty names from 'faculty' table
+[December 2, 2021, 8:34 pm EST -0500] LSA: Result: '[{"fac_name":"Ahmed Hassan"},{"fac_name":"Aparna Bharati"},{"fac_name":"Ariel Carr"},{"fac_name":"Daniel Lopresti"},{"fac_name":"Michael Spear"},{"fac_name":"Mooi Chuah"},{"fac_name":"Roberto Palmieri"},{"fac_name":"Yu Yang"}]
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting the faculty record for the faculty name=Mooi Chuah
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting all Faculty names from 'faculty' table
+[December 2, 2021, 8:34 pm EST -0500] LSA: Result: '[{"fac_name":"Ahmed Hassan"},{"fac_name":"Aparna Bharati"},{"fac_name":"Ariel Carr"},{"fac_name":"Daniel Lopresti"},{"fac_name":"Michael Spear"},{"fac_name":"Mooi Chuah"},{"fac_name":"Roberto Palmieri"},{"fac_name":"Yu Yang"}]
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting the faculty record for the faculty name=Ahmed Hassan
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting the faculty record for the faculty name=Aparna Bharati
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting the faculty record for the faculty name=Ariel Carr
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting the faculty record for the faculty name=Daniel Lopresti
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting the faculty record for the faculty name=Michael Spear
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting the faculty record for the faculty name=Mooi Chuah
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting the faculty record for the faculty name=Roberto Palmieri
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting the faculty record for the faculty name=Yu Yang
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting all Faculty names from 'faculty' table
+[December 2, 2021, 8:34 pm EST -0500] LSA: Result: '[{"fac_name":"Ahmed Hassan"},{"fac_name":"Aparna Bharati"},{"fac_name":"Ariel Carr"},{"fac_name":"Daniel Lopresti"},{"fac_name":"Michael Spear"},{"fac_name":"Mooi Chuah"},{"fac_name":"Roberto Palmieri"},{"fac_name":"Yu Yang"}]
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Requesting user info for the user 'abc'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Result: [{"first_name":"Abc","last_name":"Def"}]
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting all course numbers for the user 'abc'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE498"},{"id":3,"user_name":"abc","course_number":"CSE471"}]
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:34 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:34 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:34 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 8:35 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 8:35 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 8:35 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 8:35 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html' or \\nhttp:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/\""]}]
+[December 2, 2021, 8:35 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 8:35 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 8:35 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 8:35 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html' or \\nhttp:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/\""]}]
+[December 2, 2021, 8:35 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 8:35 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 8:35 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 8:35 pm EST -0500] LSA: [{"response":["\"Click on the following link \\nhttps:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn\""]}]
+[December 2, 2021, 8:35 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:35 pm EST -0500] LSA: Requesting user info for the user 'abc'
+[December 2, 2021, 8:35 pm EST -0500] LSA: Result: [{"first_name":"Abc","last_name":"Def"}]
+[December 2, 2021, 8:35 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:35 pm EST -0500] LSA: Getting all course numbers for the user 'abc'
+[December 2, 2021, 8:35 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE498"},{"id":3,"user_name":"abc","course_number":"CSE471"}]
+[December 2, 2021, 8:35 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:35 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:35 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:35 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:35 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:35 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 8:37 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 8:37 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Requesting user info for the user 'abc'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Result: [{"first_name":"Abc","last_name":"Def"}]
+[December 2, 2021, 8:37 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Getting all course numbers for the user 'abc'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE498"},{"id":3,"user_name":"abc","course_number":"CSE471"}]
+[December 2, 2021, 8:37 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:37 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:37 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 8:37 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 8:37 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Adding a tracker for the user 'abc' - 'CSE471' - 'Final project' - '2-12-2021' - '8:38 PM'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Result: '[{"length":1}]
+[December 2, 2021, 8:37 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"}]
+[December 2, 2021, 8:37 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Requesting user info for the user 'abc'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Result: [{"first_name":"Abc","last_name":"Def"}]
+[December 2, 2021, 8:37 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Getting all course numbers for the user 'abc'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE498"},{"id":3,"user_name":"abc","course_number":"CSE471"}]
+[December 2, 2021, 8:37 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:37 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:37 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"}]
+[December 2, 2021, 8:37 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:37 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"}]
+[December 2, 2021, 8:38 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Requesting user info for the user 'abc'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Result: [{"first_name":"Abc","last_name":"Def"}]
+[December 2, 2021, 8:38 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Getting all course numbers for the user 'abc'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE498"},{"id":3,"user_name":"abc","course_number":"CSE471"}]
+[December 2, 2021, 8:38 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:38 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:38 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"}]
+[December 2, 2021, 8:38 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"}]
+[December 2, 2021, 8:38 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Requesting user info for the user 'abc'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Result: [{"first_name":"Abc","last_name":"Def"}]
+[December 2, 2021, 8:38 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Getting all course numbers for the user 'abc'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE498"},{"id":3,"user_name":"abc","course_number":"CSE471"}]
+[December 2, 2021, 8:38 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:38 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:38 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"}]
+[December 2, 2021, 8:38 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"}]
+[December 2, 2021, 8:38 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Requesting user info for the user 'abc'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Result: [{"first_name":"Abc","last_name":"Def"}]
+[December 2, 2021, 8:38 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Getting all course numbers for the user 'abc'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE498"},{"id":3,"user_name":"abc","course_number":"CSE471"}]
+[December 2, 2021, 8:38 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:38 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:38 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:38 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"}]
+[December 2, 2021, 8:39 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:39 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:39 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"}]
+[December 2, 2021, 8:40 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 8:40 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 8:40 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:40 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:40 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 8:40 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Requesting user info for the user 'abc'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Result: [{"first_name":"Abc","last_name":"Def"}]
+[December 2, 2021, 8:40 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Getting all course numbers for the user 'abc'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE498"},{"id":3,"user_name":"abc","course_number":"CSE471"}]
+[December 2, 2021, 8:40 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:40 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:40 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"}]
+[December 2, 2021, 8:40 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Getting all Faculty names from 'faculty' table
+[December 2, 2021, 8:40 pm EST -0500] LSA: Result: '[{"fac_name":"Ahmed Hassan"},{"fac_name":"Aparna Bharati"},{"fac_name":"Ariel Carr"},{"fac_name":"Daniel Lopresti"},{"fac_name":"Michael Spear"},{"fac_name":"Mooi Chuah"},{"fac_name":"Roberto Palmieri"},{"fac_name":"Yu Yang"}]
+[December 2, 2021, 8:40 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Requesting user info for the user 'abc'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Result: [{"first_name":"Abc","last_name":"Def"}]
+[December 2, 2021, 8:40 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Getting all course numbers for the user 'abc'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE498"},{"id":3,"user_name":"abc","course_number":"CSE471"}]
+[December 2, 2021, 8:40 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:40 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:40 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"}]
+[December 2, 2021, 8:40 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:40 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"}]
+[December 2, 2021, 8:42 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:42 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 8:42 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""}]
+[December 2, 2021, 8:43 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:43 pm EST -0500] LSA: Adding a tracker for the user 'user1' - 'CSE471' - 'final project' - '2-12-2021' - '8:45 PM'
+[December 2, 2021, 8:43 pm EST -0500] LSA: Result: '[{"length":1}]
+[December 2, 2021, 8:43 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:43 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 8:43 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""},{"id":3,"user_name":"user1","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:45 PM","assignment":"final project"}]
+[December 2, 2021, 8:45 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:45 pm EST -0500] LSA: Requesting user info for the user 'abc'
+[December 2, 2021, 8:45 pm EST -0500] LSA: Result: [{"first_name":"Abc","last_name":"Def"}]
+[December 2, 2021, 8:45 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:45 pm EST -0500] LSA: Getting all course numbers for the user 'abc'
+[December 2, 2021, 8:45 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE498"},{"id":3,"user_name":"abc","course_number":"CSE471"}]
+[December 2, 2021, 8:45 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:45 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:45 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:45 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:45 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:45 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"}]
+[December 2, 2021, 8:45 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:45 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:45 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"}]
+[December 2, 2021, 8:46 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:46 pm EST -0500] LSA: Adding a tracker for the user 'abc' - 'CSE471' - 'a1' - '2-12-2021' - '8:46 PM'
+[December 2, 2021, 8:46 pm EST -0500] LSA: Result: '[{"length":1}]
+[December 2, 2021, 8:46 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:46 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:46 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"},{"id":4,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:46 PM","assignment":"a1"}]
+[December 2, 2021, 8:46 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:46 pm EST -0500] LSA: Requesting user info for the user 'abc'
+[December 2, 2021, 8:46 pm EST -0500] LSA: Result: [{"first_name":"Abc","last_name":"Def"}]
+[December 2, 2021, 8:46 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:46 pm EST -0500] LSA: Getting all course numbers for the user 'abc'
+[December 2, 2021, 8:46 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE498"},{"id":3,"user_name":"abc","course_number":"CSE471"}]
+[December 2, 2021, 8:46 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:46 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:46 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:46 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:46 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:46 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"},{"id":4,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:46 PM","assignment":"a1"}]
+[December 2, 2021, 8:46 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:46 pm EST -0500] LSA: Getting all tracker details for the user 'abc'
+[December 2, 2021, 8:46 pm EST -0500] LSA: Result: '[{"id":2,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:38 PM","assignment":"Final project"},{"id":4,"user_name":"abc","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:46 PM","assignment":"a1"}]
+[December 2, 2021, 8:54 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:54 pm EST -0500] LSA: Requesting user info for the user 'user1'
+[December 2, 2021, 8:54 pm EST -0500] LSA: Result: [{"first_name":"Sam","last_name":"Red"}]
+[December 2, 2021, 8:54 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:54 pm EST -0500] LSA: Getting all course numbers for the user 'user1'
+[December 2, 2021, 8:54 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471"}]
+[December 2, 2021, 8:54 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:54 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:54 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:54 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:54 pm EST -0500] LSA: Getting all tracker details for the user 'user1'
+[December 2, 2021, 8:54 pm EST -0500] LSA: Result: '[{"id":1,"user_name":"user1","course_number":"CSE471","due_date":"","due_time":"","assignment":""},{"id":3,"user_name":"user1","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:45 PM","assignment":"final project"}]
+[December 2, 2021, 8:55 pm EST -0500] LSA: Received command 'authorization'
+[December 2, 2021, 8:55 pm EST -0500] LSA: Registering 'Teju', 'Srinath'
+[December 2, 2021, 8:55 pm EST -0500] LSA: Result: '[{"length":1}]
+[December 2, 2021, 8:56 pm EST -0500] LSA: Received command 'authorization'
+[December 2, 2021, 8:56 pm EST -0500] LSA: The user 'teju' trying to login...
+[December 2, 2021, 8:56 pm EST -0500] LSA: Result: '[{"id":9,"first_name":"Teju","last_name":"Srinath","user_name":"teju","password":"srinath"}]
+[December 2, 2021, 8:56 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Requesting user info for the user 'teju'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Result: [{"first_name":"Teju","last_name":"Srinath"}]
+[December 2, 2021, 8:56 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Getting all course numbers for the user 'teju'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 8:56 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:56 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:56 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Getting all tracker details for the user 'teju'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 8:56 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Registering new course for the user 'teju': 'CSE498'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Registering new course for the user 'teju': 'CSE471'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Result: '[{"length":1}]
+[December 2, 2021, 8:56 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Requesting user info for the user 'teju'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Result: [{"first_name":"Teju","last_name":"Srinath"}]
+[December 2, 2021, 8:56 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Getting all course numbers for the user 'teju'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Result: '[{"id":4,"user_name":"teju","course_number":"CSE498"},{"id":5,"user_name":"teju","course_number":"CSE471"}]
+[December 2, 2021, 8:56 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:56 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:56 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Getting all tracker details for the user 'teju'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 8:56 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Requesting user info for the user 'teju'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Result: [{"first_name":"Teju","last_name":"Srinath"}]
+[December 2, 2021, 8:56 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Getting all course numbers for the user 'teju'
+[December 2, 2021, 8:56 pm EST -0500] LSA: Result: '[{"id":4,"user_name":"teju","course_number":"CSE498"},{"id":5,"user_name":"teju","course_number":"CSE471"}]
+[December 2, 2021, 8:57 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:57 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:57 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:57 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:57 pm EST -0500] LSA: Getting all tracker details for the user 'teju'
+[December 2, 2021, 8:57 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 8:57 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:57 pm EST -0500] LSA: Getting all tracker details for the user 'teju'
+[December 2, 2021, 8:57 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 8:57 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:57 pm EST -0500] LSA: Getting all tracker details for the user 'teju'
+[December 2, 2021, 8:57 pm EST -0500] LSA: Result: '[]
+[December 2, 2021, 8:58 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:58 pm EST -0500] LSA: Adding a tracker for the user 'teju' - 'CSE471' - 'final project' - '2-12-2021' - '8:58 PM'
+[December 2, 2021, 8:58 pm EST -0500] LSA: Result: '[{"length":1}]
+[December 2, 2021, 8:58 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:58 pm EST -0500] LSA: Getting all tracker details for the user 'teju'
+[December 2, 2021, 8:58 pm EST -0500] LSA: Result: '[{"id":5,"user_name":"teju","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:58 PM","assignment":"final project"}]
+[December 2, 2021, 8:58 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:58 pm EST -0500] LSA: Requesting user info for the user 'teju'
+[December 2, 2021, 8:58 pm EST -0500] LSA: Result: [{"first_name":"Teju","last_name":"Srinath"}]
+[December 2, 2021, 8:58 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:58 pm EST -0500] LSA: Getting all course numbers for the user 'teju'
+[December 2, 2021, 8:58 pm EST -0500] LSA: Result: '[{"id":4,"user_name":"teju","course_number":"CSE498"},{"id":5,"user_name":"teju","course_number":"CSE471"}]
+[December 2, 2021, 8:58 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:58 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:58 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:58 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:58 pm EST -0500] LSA: Getting all tracker details for the user 'teju'
+[December 2, 2021, 8:58 pm EST -0500] LSA: Result: '[{"id":5,"user_name":"teju","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:58 PM","assignment":"final project"}]
+[December 2, 2021, 8:58 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:58 pm EST -0500] LSA: Getting all Faculty names from 'faculty' table
+[December 2, 2021, 8:58 pm EST -0500] LSA: Result: '[{"fac_name":"Ahmed Hassan"},{"fac_name":"Aparna Bharati"},{"fac_name":"Ariel Carr"},{"fac_name":"Daniel Lopresti"},{"fac_name":"Michael Spear"},{"fac_name":"Mooi Chuah"},{"fac_name":"Roberto Palmieri"},{"fac_name":"Yu Yang"}]
+[December 2, 2021, 8:58 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:58 pm EST -0500] LSA: Getting the faculty record for the faculty name=Mooi Chuah
+[December 2, 2021, 8:58 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:58 pm EST -0500] LSA: Getting all Faculty names from 'faculty' table
+[December 2, 2021, 8:58 pm EST -0500] LSA: Result: '[{"fac_name":"Ahmed Hassan"},{"fac_name":"Aparna Bharati"},{"fac_name":"Ariel Carr"},{"fac_name":"Daniel Lopresti"},{"fac_name":"Michael Spear"},{"fac_name":"Mooi Chuah"},{"fac_name":"Roberto Palmieri"},{"fac_name":"Yu Yang"}]
+[December 2, 2021, 8:59 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Getting the faculty record for the faculty name=Ahmed Hassan
+[December 2, 2021, 8:59 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Getting the faculty record for the faculty name=Aparna Bharati
+[December 2, 2021, 8:59 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Getting the faculty record for the faculty name=Ariel Carr
+[December 2, 2021, 8:59 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Getting the faculty record for the faculty name=Daniel Lopresti
+[December 2, 2021, 8:59 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Getting the faculty record for the faculty name=Michael Spear
+[December 2, 2021, 8:59 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Getting the faculty record for the faculty name=Mooi Chuah
+[December 2, 2021, 8:59 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Getting the faculty record for the faculty name=Roberto Palmieri
+[December 2, 2021, 8:59 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Getting the faculty record for the faculty name=Yu Yang
+[December 2, 2021, 8:59 pm EST -0500] LSA: Received command 'faculty'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Getting all Faculty names from 'faculty' table
+[December 2, 2021, 8:59 pm EST -0500] LSA: Result: '[{"fac_name":"Ahmed Hassan"},{"fac_name":"Aparna Bharati"},{"fac_name":"Ariel Carr"},{"fac_name":"Daniel Lopresti"},{"fac_name":"Michael Spear"},{"fac_name":"Mooi Chuah"},{"fac_name":"Roberto Palmieri"},{"fac_name":"Yu Yang"}]
+[December 2, 2021, 8:59 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Requesting user info for the user 'teju'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Result: [{"first_name":"Teju","last_name":"Srinath"}]
+[December 2, 2021, 8:59 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Getting all course numbers for the user 'teju'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Result: '[{"id":4,"user_name":"teju","course_number":"CSE498"},{"id":5,"user_name":"teju","course_number":"CSE471"}]
+[December 2, 2021, 8:59 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 8:59 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 8:59 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Getting all tracker details for the user 'teju'
+[December 2, 2021, 8:59 pm EST -0500] LSA: Result: '[{"id":5,"user_name":"teju","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:58 PM","assignment":"final project"}]
+[December 2, 2021, 9:00 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 9:00 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 2, 2021, 9:00 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 9:00 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html' or \\nhttp:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/\""]}]
+[December 2, 2021, 9:01 pm EST -0500] LSA: Received command 'chatbot'
+[December 2, 2021, 9:01 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"vpn","type":"value"}]'
+[December 2, 2021, 9:01 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 2, 2021, 9:01 pm EST -0500] LSA: [{"response":["\"Click on the following link \\nhttps:\\\/\\\/lts.lehigh.edu\\\/services\\\/vpn\""]}]
+[December 2, 2021, 9:01 pm EST -0500] LSA: Received command 'user'
+[December 2, 2021, 9:01 pm EST -0500] LSA: Requesting user info for the user 'teju'
+[December 2, 2021, 9:01 pm EST -0500] LSA: Result: [{"first_name":"Teju","last_name":"Srinath"}]
+[December 2, 2021, 9:01 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 9:01 pm EST -0500] LSA: Getting all course numbers for the user 'teju'
+[December 2, 2021, 9:01 pm EST -0500] LSA: Result: '[{"id":4,"user_name":"teju","course_number":"CSE498"},{"id":5,"user_name":"teju","course_number":"CSE471"}]
+[December 2, 2021, 9:01 pm EST -0500] LSA: Received command 'course'
+[December 2, 2021, 9:01 pm EST -0500] LSA: Getting all course numbers
+[December 2, 2021, 9:01 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 2, 2021, 9:01 pm EST -0500] LSA: Received command 'tracker'
+[December 2, 2021, 9:01 pm EST -0500] LSA: Getting all tracker details for the user 'teju'
+[December 2, 2021, 9:01 pm EST -0500] LSA: Result: '[{"id":5,"user_name":"teju","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:58 PM","assignment":"final project"}]
+[December 6, 2021, 12:54 pm EST -0500] LSA: Received command 'user'
+[December 6, 2021, 12:54 pm EST -0500] LSA: Requesting user info for the user 'teju'
+[December 6, 2021, 12:54 pm EST -0500] LSA: Result: [{"first_name":"Teju","last_name":"Srinath"}]
+[December 6, 2021, 12:54 pm EST -0500] LSA: Received command 'course'
+[December 6, 2021, 12:54 pm EST -0500] LSA: Getting all course numbers for the user 'teju'
+[December 6, 2021, 12:54 pm EST -0500] LSA: Result: '[{"id":4,"user_name":"teju","course_number":"CSE498"},{"id":5,"user_name":"teju","course_number":"CSE471"}]
+[December 6, 2021, 12:54 pm EST -0500] LSA: Received command 'course'
+[December 6, 2021, 12:54 pm EST -0500] LSA: Getting all course numbers
+[December 6, 2021, 12:54 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 6, 2021, 12:54 pm EST -0500] LSA: Received command 'tracker'
+[December 6, 2021, 12:54 pm EST -0500] LSA: Getting all tracker details for the user 'teju'
+[December 6, 2021, 12:54 pm EST -0500] LSA: Result: '[{"id":5,"user_name":"teju","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:58 PM","assignment":"final project"}]
+[December 6, 2021, 12:54 pm EST -0500] LSA: Received command 'chatbot'
+[December 6, 2021, 12:54 pm EST -0500] LSA: WitAI Response, input '[{"confidence":1,"value":"Sunlab","type":"value"}]'
+[December 6, 2021, 12:54 pm EST -0500] LSA: server_decoded_rsp 'Array'
+[December 6, 2021, 12:54 pm EST -0500] LSA: [{"response":["\"Contact Todd George at trg319@lehigh.edu.\\n Find your solutions in https:\\\/\\\/www.lehigh.edu\\\/~inimr\\\/ssh\\\/ssh1.html' or \\nhttp:\\\/\\\/www.cse.lehigh.edu\\\/sunlab\\\/\""]}]
+[December 6, 2021, 12:57 pm EST -0500] LSA: Received command 'user'
+[December 6, 2021, 12:57 pm EST -0500] LSA: Requesting user info for the user 'teju'
+[December 6, 2021, 12:57 pm EST -0500] LSA: Result: [{"first_name":"Teju","last_name":"Srinath"}]
+[December 6, 2021, 12:58 pm EST -0500] LSA: Received command 'course'
+[December 6, 2021, 12:58 pm EST -0500] LSA: Getting all course numbers for the user 'teju'
+[December 6, 2021, 12:58 pm EST -0500] LSA: Result: '[{"id":4,"user_name":"teju","course_number":"CSE498"},{"id":5,"user_name":"teju","course_number":"CSE471"}]
+[December 6, 2021, 12:58 pm EST -0500] LSA: Received command 'course'
+[December 6, 2021, 12:58 pm EST -0500] LSA: Getting all course numbers
+[December 6, 2021, 12:58 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 6, 2021, 12:58 pm EST -0500] LSA: Received command 'tracker'
+[December 6, 2021, 12:58 pm EST -0500] LSA: Getting all tracker details for the user 'teju'
+[December 6, 2021, 12:58 pm EST -0500] LSA: Result: '[{"id":5,"user_name":"teju","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:58 PM","assignment":"final project"}]
+[December 6, 2021, 2:07 pm EST -0500] LSA: Received command 'user'
+[December 6, 2021, 2:07 pm EST -0500] LSA: Requesting user info for the user 'teju'
+[December 6, 2021, 2:07 pm EST -0500] LSA: Result: [{"first_name":"Teju","last_name":"Srinath"}]
+[December 6, 2021, 2:07 pm EST -0500] LSA: Received command 'course'
+[December 6, 2021, 2:07 pm EST -0500] LSA: Getting all course numbers for the user 'teju'
+[December 6, 2021, 2:07 pm EST -0500] LSA: Result: '[{"id":4,"user_name":"teju","course_number":"CSE498"},{"id":5,"user_name":"teju","course_number":"CSE471"}]
+[December 6, 2021, 2:07 pm EST -0500] LSA: Received command 'course'
+[December 6, 2021, 2:07 pm EST -0500] LSA: Getting all course numbers
+[December 6, 2021, 2:07 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 6, 2021, 2:07 pm EST -0500] LSA: Received command 'tracker'
+[December 6, 2021, 2:07 pm EST -0500] LSA: Getting all tracker details for the user 'teju'
+[December 6, 2021, 2:07 pm EST -0500] LSA: Result: '[{"id":5,"user_name":"teju","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:58 PM","assignment":"final project"}]
+[December 6, 2021, 2:10 pm EST -0500] LSA: Received command 'user'
+[December 6, 2021, 2:10 pm EST -0500] LSA: Requesting user info for the user 'teju'
+[December 6, 2021, 2:10 pm EST -0500] LSA: Result: [{"first_name":"Teju","last_name":"Srinath"}]
+[December 6, 2021, 2:10 pm EST -0500] LSA: Received command 'course'
+[December 6, 2021, 2:10 pm EST -0500] LSA: Getting all course numbers for the user 'teju'
+[December 6, 2021, 2:10 pm EST -0500] LSA: Result: '[{"id":4,"user_name":"teju","course_number":"CSE498"},{"id":5,"user_name":"teju","course_number":"CSE471"}]
+[December 6, 2021, 2:10 pm EST -0500] LSA: Received command 'course'
+[December 6, 2021, 2:10 pm EST -0500] LSA: Getting all course numbers
+[December 6, 2021, 2:10 pm EST -0500] LSA: Result: '[{"course_number":"CSE498"},{"course_number":"CSE471"},{"course_number":"CSE398"},{"course_number":"CSE371"},{"course_number":"CSE403"},{"course_number":"CSE411"},{"course_number":"CSE331"}]
+[December 6, 2021, 2:10 pm EST -0500] LSA: Received command 'tracker'
+[December 6, 2021, 2:10 pm EST -0500] LSA: Getting all tracker details for the user 'teju'
+[December 6, 2021, 2:10 pm EST -0500] LSA: Result: '[{"id":5,"user_name":"teju","course_number":"CSE471","due_date":"2-12-2021","due_time":"8:58 PM","assignment":"final project"}]

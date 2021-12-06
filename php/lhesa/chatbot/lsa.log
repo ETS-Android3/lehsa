@@ -1,0 +1,8 @@
+[November 28, 2021, 11:38 am EST -0500] LSA: Chatbot: Utterance 'father'
+[November 28, 2021, 11:38 am EST -0500] LSA: Chatbot: WitAI response '{"text":"father","intents":[],"entities":{"issues:issues":[{"id":"256445556404927","name":"issues","role":"issues","start":0,"end":6,"body":"father","confidence":1,"entities":[],"value":"relationship","type":"value"}]},"traits":{}}'
+[November 28, 2021, 11:39 am EST -0500] LSA: Chatbot: Utterance 'father'
+[November 28, 2021, 11:39 am EST -0500] LSA: Chatbot: WitAI response '{"text":"father","intents":[],"entities":{"issues:issues":[{"id":"256445556404927","name":"issues","role":"issues","start":0,"end":6,"body":"father","confidence":1,"entities":[],"value":"relationship","type":"value"}]},"traits":{}}'
+[November 28, 2021, 12:03 pm EST -0500] LSA: Chatbot: Utterance ''
+[November 28, 2021, 12:03 pm EST -0500] LSA: Chatbot: WitAI response '{"error":"Message is either too short or too long (max is 280)","code":"msg-invalid"}'
+[November 28, 2021, 12:04 pm EST -0500] LSA: Chatbot: Utterance ''
+[November 28, 2021, 12:04 pm EST -0500] LSA: Chatbot: WitAI response '{"error":"Message is either too short or too long (max is 280)","code":"msg-invalid"}'
