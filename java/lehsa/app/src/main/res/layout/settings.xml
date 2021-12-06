@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0dp"
+    android:background="@color/white"
+    android:padding="10dp"
+    tools:context=".Settings">
+
+    <TextView
+        android:id="@+id/configuration_head"
+        android:layout_width="285dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="54dp"
+        android:text="@string/configuration"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#A4C639"
+        tools:layout_editor_absoluteX="74dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+<!--    <Button-->
+<!--        android:id="@+id/config_save_btn"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/configuration_head"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_gravity="right"-->
+<!--        android:layout_marginTop="50dp"-->
+<!--        android:layout_marginEnd="10dp"-->
+<!--        android:background="#0099FF"-->
+<!--        android:text="@string/save"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textAllCaps="false"-->
+<!--        android:textColor="@color/black_overlay"-->
+<!--        android:textSize="20sp"-->
+<!--        android:textStyle="bold"-->
+<!--        app:backgroundTint="#EDE0E0"-->
+<!--        tools:layout_editor_absoluteX="273dp"-->
+<!--        tools:layout_editor_absoluteY="301dp"-->
+<!--        tools:visibility="visible" />-->
+
+    <Button
+        android:id="@+id/config_course_btn"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/configuration_head"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="100dp"
+        android:background="#0099FF"
+        android:gravity="center"
+        android:text="@string/course"
+        android:textAllCaps="false"
+        android:textColor="@color/black_overlay"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorAccent"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="301dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/config_update_password"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/config_course_btn"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="100dp"
+        android:background="#0099FF"
+        android:gravity="center"
+        android:text="@string/update_password"
+        android:textAllCaps="false"
+        android:textColor="@color/black_overlay"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorAccent"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="301dp"
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/config_delete_account"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/config_update_password"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="100dp"
+        android:background="#0099FF"
+        android:gravity="center"
+        android:text="@string/delete_account"
+        android:textAllCaps="false"
+        android:textColor="@color/black_overlay"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:backgroundTint="@color/colorThemeDark"
+        tools:layout_editor_absoluteX="273dp"
+        tools:layout_editor_absoluteY="301dp"
+        tools:visibility="visible" />
+
+
+</RelativeLayout>
+

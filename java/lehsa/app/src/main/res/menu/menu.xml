@@ -1,0 +1,26 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="AlwaysShowAction">
+    <item android:id="@+id/action_settings"
+        android:icon="@drawable/menu_settings"
+        android:title="@string/action_settings"
+        app:showAsAction="always" />
+</menu>
+
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto">-->
+
+<!--    &lt;!&ndash; "Mark Favorite", should appear as action button if possible &ndash;&gt;-->
+<!--&lt;!&ndash;    <item&ndash;&gt;-->
+<!--&lt;!&ndash;        android:id="@+id/action_favorite"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:icon="@drawable/menu_settings"&ndash;&gt;-->
+<!--&lt;!&ndash;        android:title="@string/action_favorite"&ndash;&gt;-->
+<!--&lt;!&ndash;        app:showAsAction="ifRoom"/>&ndash;&gt;-->
+
+<!--    &lt;!&ndash; Settings, should always be in the overflow &ndash;&gt;-->
+<!--    <item android:id="@+id/action_settings"-->
+<!--        android:title="@string/action_settings"-->
+<!--        app:showAsAction="never"/>-->
+
+<!--</menu>-->

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="my.project.lhesa">
+
+    <!-- Added permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+
+    <application
+        android:name="my.project.lhesa.lhesa"
+        android:fullBackupOnly="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/lehigh_student_assistant"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:allowBackup="true"
+        tools:replace="android:label">
+
+        <activity
+            android:name="my.project.lhesa.SignIn"
+            android:label="@string/lehigh_student_assistant"
+            android:launchMode="singleInstance"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="my.project.lhesa.Home"
+            android:label="@string/lehigh_student_assistant"
+            android:screenOrientation="fullSensor"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.HOME"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="my.project.lhesa.SignUp"
+            android:label="@string/lehigh_student_assistant"
+            android:parentActivityName="my.project.lhesa.SignIn"
+            android:screenOrientation="fullSensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.project.lhesa.SignIn" />
+        </activity>
+
+        <activity
+            android:name="my.project.lhesa.Settings"
+            android:label="@string/lehigh_student_assistant"
+            android:parentActivityName="my.project.lhesa.Home"
+            android:screenOrientation="fullSensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.project.lhesa.Home" />
+        </activity>
+
+        <activity
+            android:name="my.project.lhesa.Tracker"
+            android:label="@string/lehigh_student_assistant"
+            android:parentActivityName="my.project.lhesa.Home"
+            android:screenOrientation="fullSensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.project.lhesa.Home" />
+        </activity>
+
+        <activity
+            android:name="my.project.lhesa.FacultySearch"
+            android:label="@string/lehigh_student_assistant"
+            android:parentActivityName="my.project.lhesa.Home"
+            android:screenOrientation="fullSensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.project.lhesa.Home" />
+        </activity>
+
+        <activity
+            android:name="my.project.lhesa.FacultyFaceDetect"
+            android:label="@string/lehigh_student_assistant"
+            android:parentActivityName="my.project.lhesa.FacultySearch"
+            android:screenOrientation="fullSensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.project.lhesa.FacultySearch" />
+        </activity>
+
+        <activity
+            android:name="my.project.lhesa.FacultyDisplay"
+            android:label="@string/lehigh_student_assistant"
+            android:parentActivityName="my.project.lhesa.FacultySearch"
+            android:screenOrientation="fullSensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.project.lhesa.FacultySearch" />
+        </activity>
+
+        <activity
+            android:name="my.project.lhesa.Chatbot"
+            android:label="@string/lehigh_student_assistant"
+            android:parentActivityName="my.project.lhesa.Home"
+            android:screenOrientation="fullSensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.project.lhesa.Home" />
+        </activity>
+
+        <activity
+            android:name="my.project.lhesa.splashActivity"
+            android:label="@string/lehigh_student_assistant" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="my.project.lhesa.TrackerAdd"
+            android:label="@string/lehigh_student_assistant"
+            android:parentActivityName="my.project.lhesa.Tracker"
+            android:screenOrientation="fullSensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.project.lhesa.Tracker" />
+        </activity>
+
+        <activity
+            android:name="my.project.lhesa.TrackerDelete"
+            android:label="@string/lehigh_student_assistant"
+            android:parentActivityName="my.project.lhesa.Tracker"
+            android:screenOrientation="fullSensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.project.lhesa.Tracker" />
+        </activity>
+
+        <receiver
+            android:name="my.project.lhesa.TrackerAlarmBroadcast" />
+		
+		<activity
+            android:name="my.project.lhesa.ChatSplashActivity"
+            android:label="@string/lehigh_student_assistant"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:label="@string/lehigh_student_assistant"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:src="@mipmap/ic_face" />
+
+<!--    android:layout_alignParentLeft="true"-->
+<!--    android:layout_alignParentStart="true"-->
+<!--    android:autoLink="web"-->
+<!--    android:autoLink="all"-->
+    <TextView
+        android:id="@+id/message"
+        android:autoLink="all"
+        android:clickable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/bg_bubble_watbot"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@android:color/black"
+        android:textIsSelectable="true"
+        android:linksClickable="true"
+        android:textSize="14sp" />
+
+
+</LinearLayout>

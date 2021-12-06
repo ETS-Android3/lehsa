@@ -1,0 +1,3 @@
+https://github.com/akrajilwar/Android-Login-And-Registration
+https://stackoverflow.com/questions/38417984/android-spinner-dropdown-checkbox/38418249
+https://phpdelusions.net/mysqli/mysqli_connect#include

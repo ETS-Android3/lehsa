@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighPersonalAssistant/app/src/main/res/layout/faculty.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighPersonalAssistant/app/src/main/res/layout/faq.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighPersonalAssistant/app/src/main/res/layout/home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighPersonalAssistant/app/src/main/res/layout/settings.xml" value="0.786096256684492" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/alaram.xml" value="0.14114583333333333" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/bg_bubble_self.xml" value="0.1390625" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/bg_bubble_watbot.xml" value="0.2546875" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/chatbot.xml" value="0.2388888888888889" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/edit_background.xml" value="0.246875" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/ic_baseline_remove_24.xml" value="0.1671875" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/ic_baseline_remove_circle_24.xml" value="0.1671875" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.246875" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/ic_chatbot.xml" value="0.14114583333333333" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/ic_chatbot_background.xml" value="0.14114583333333333" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/menu_settings.xml" value="0.16354166666666667" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/menu_settings3.xml" value="0.14635416666666667" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/minus_icon.xml" value="0.11200000000000002" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/drawable/plus_icon.xml" value="0.1" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/font/alegreya_sans_thin.xml" value="0.153125" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/activity_notification_message.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/activity_reminder.xml" value="0.264" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/activity_splash.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/add_reminder.xml" value="0.20677083333333332" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/chat_item_self.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/chat_item_watson.xml" value="0.1" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/chatbot.xml" value="0.72" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/configuration.xml" value="0.264" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/content_chat_room.xml" value="0.536" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/face_detect.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/faculty.xml" value="0.2" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/faculty_display.xml" value="0.18333333333333332" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/faq.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/forget_password.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/home.xml" value="0.5020576131687243" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/notification_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/remove_remainder.xml" value="0.15104166666666666" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/select_course.xml" value="0.1859375" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/settings.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/signup.xml" value="0.4" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/test.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/tracker.xml" value="0.264" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/update_password.xml" value="0.21195652173913043" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/layout/verify_password.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/reddy/AndroidStudioProjects/LehighStudentAssistant/app/src/main/res/menu/menu.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
